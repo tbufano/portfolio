@@ -1,0 +1,19 @@
+# Site settings
+title: Tommaso Bufano
+email: tbufano@thinkseed.com
+description: > # this means to ignore newlines until "baseurl:"
+  Chicago web designer, developer, and photographer. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: tbufano
+github_username:  tbufano
+
+collections:
+  work:
+    output: true
+    permalink: /work/:title/
+
+# Build settings
+markdown: kramdown
